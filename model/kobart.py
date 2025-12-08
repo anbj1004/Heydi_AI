@@ -1,3 +1,8 @@
+# model/kobart.py
+# 코드 설명: KoBART 모델을 사용하여 일기 내용으로부터 주제 태그를 생성하는 모델 학습 스크립트입니다.
+# 사용된 모델명: gogamza/kobart-base-v1
+# 사용된 데이터셋: diary_tag_dataset.json
+# 학습된 모델은 ./model/final_diary_tag_model 경로에 저장됩니다.
 import json
 import torch
 import pandas as pd

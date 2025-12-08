@@ -1,3 +1,6 @@
+# app/api/api_v1/endpoints/test_model.py
+# 코드 설명: 테스트용 모델 API 엔드포인트를 정의합니다.
+# 간단한 테스트 및 LLM 관련 기능을 제공합니다.
 from fastapi import APIRouter
 from google import genai
 from google.genai import types

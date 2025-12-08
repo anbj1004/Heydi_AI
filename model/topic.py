@@ -1,3 +1,6 @@
+# model/topic.py
+# 코드 설명: 일기 내용으로부터 주제 태그를 추출하는 기능을 제공하는 모듈입니다.
+# 로컬 KoBART 모델과 Google Gemini API를 모두 지원합니다.
 import os
 import torch
 from google import genai
